@@ -1,0 +1,141 @@
+a:11:{s:6:"config";a:5:{s:10:"phpVersion";s:6:"5.5.35";s:10:"yiiVersion";s:8:"2.0.11.2";s:11:"application";a:8:{s:3:"yii";s:8:"2.0.11.2";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:6:"5.5.35";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:5:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:74:"/Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2-swiftmailer";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:72:"/Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.9.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:68:"/Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:66:"/Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:68:"/Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2-faker";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:13:{s:4:"host";s:9:"localhost";s:10:"connection";s:10:"keep-alive";s:14:"content-length";s:3:"719";s:6:"accept";s:3:"*/*";s:6:"origin";s:16:"http://localhost";s:12:"x-csrf-token";s:56:"WkJIUk9zcHUpJhoxFyU0Iy8wOiE3RTsHCzMSCyQAGjM2FAs2NQtIFg==";s:16:"x-requested-with";s:14:"XMLHttpRequest";s:10:"user-agent";s:121:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36";s:12:"content-type";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:7:"referer";s:89:"http://localhost/freshgrade-api.loc/backend/web/index.php?r=gii%2Fdefault%2Fview&id=model";s:15:"accept-encoding";s:17:"gzip, deflate, br";s:15:"accept-language";s:41:"en-US,en;q=0.8,ru;q=0.6,id;q=0.4,uk;q=0.2";s:6:"cookie";s:1071:"__utma=111872281.829728731.1489800627.1489858884.1489953474.4; __utmc=111872281; __utmz=111872281.1489800627.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.829728731.1489800627; PHPSESSID=g09f7te9unnas3rt716f5reb24; _identity=30efa057900262bd5591fed58e4a9ebd37516f9b161a22811a3eb79cc6cffb52a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=9be8e7b4f9cfde37a7535ab9ca75ef09167341d8456cbf5051d796f85f08d164a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kZZu28gKKzJQYW8nZ7aMdHFh4CcI2bAr%22%3B%7D; advanced-frontend=5pt5ok0de226icb8jpjtu5nqk1; advanced-backend=ul3dtj7f3n69k8og08eddh48o1; _csrf-frontend=ad0768da15c98a3996664e28dd2500ffa9cefa766ef411f1ff4d8dbfe0bffab3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22O6cbJM0ZPZUG5rb-mIPh8DDt6zjpkkaL%22%3B%7D; _csrf-backend=73e6921a8349bc21dd199aa940bfbadb93fda3ef073874968f05609ba12c07a7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22sdRcXVDVurrsx6KrQqZYksjFlVCdzx8c%22%3B%7D";}s:15:"responseHeaders";a:5:{s:12:"X-Powered-By";s:10:"PHP/5.5.35";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";s:11:"X-Debug-Tag";s:13:"58ec581b2fd7b";s:16:"X-Debug-Duration";s:2:"77";s:12:"X-Debug-Link";s:84:"/freshgrade-api.loc/backend/web/index.php?r=debug%2Fdefault%2Fview&tag=58ec581b2fd7b";}s:5:"route";s:19:"gii/default/preview";s:6:"action";s:54:"yii\gii\controllers\DefaultController::actionPreview()";s:12:"actionParams";a:2:{i:0;s:5:"model";i:1;s:32:"8f1e0607035ac52ab8540d8c225da396";}s:11:"requestBody";a:3:{s:12:"Content Type";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:3:"Raw";s:719:"_csrf-backend=WkJIUk9zcHUpJhoxFyU0Iy8wOiE3RTsHCzMSCyQAGjM2FAs2NQtIFg%3D%3D&Generator%5BtableName%5D=student&Generator%5BmodelClass%5D=Student&Generator%5Bns%5D=app%5Cmodels&Generator%5BbaseClass%5D=yii%5Cdb%5CActiveRecord&Generator%5Bdb%5D=db&Generator%5BuseTablePrefix%5D=0&Generator%5BgenerateRelations%5D=all&Generator%5BgenerateLabelsFromComments%5D=0&Generator%5BgenerateQuery%5D=0&Generator%5BqueryNs%5D=app%5Cmodels&Generator%5BqueryClass%5D=StudentQuery&Generator%5BqueryBaseClass%5D=yii%5Cdb%5CActiveQuery&Generator%5BenableI18N%5D=0&Generator%5BmessageCategory%5D=app&Generator%5BuseSchemaName%5D=0&Generator%5BuseSchemaName%5D=1&Generator%5Btemplate%5D=default&answers%5B8f1e0607035ac52ab8540d8c225da396%5D=1";s:17:"Decoded to Params";a:3:{s:13:"_csrf-backend";s:56:"WkJIUk9zcHUpJhoxFyU0Iy8wOiE3RTsHCzMSCyQAGjM2FAs2NQtIFg==";s:9:"Generator";a:16:{s:9:"tableName";s:7:"student";s:10:"modelClass";s:7:"Student";s:2:"ns";s:10:"app\models";s:9:"baseClass";s:19:"yii\db\ActiveRecord";s:2:"db";s:2:"db";s:14:"useTablePrefix";s:1:"0";s:17:"generateRelations";s:3:"all";s:26:"generateLabelsFromComments";s:1:"0";s:13:"generateQuery";s:1:"0";s:7:"queryNs";s:10:"app\models";s:10:"queryClass";s:12:"StudentQuery";s:14:"queryBaseClass";s:18:"yii\db\ActiveQuery";s:10:"enableI18N";s:1:"0";s:15:"messageCategory";s:3:"app";s:13:"useSchemaName";s:1:"1";s:8:"template";s:7:"default";}s:7:"answers";a:1:{s:32:"8f1e0607035ac52ab8540d8c225da396";s:1:"1";}}}s:6:"SERVER";a:37:{s:3:"TMP";s:23:"/Applications/AMPPS/tmp";s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:14:"CONTENT_LENGTH";s:3:"719";s:11:"HTTP_ACCEPT";s:3:"*/*";s:11:"HTTP_ORIGIN";s:16:"http://localhost";s:17:"HTTP_X_CSRF_TOKEN";s:56:"WkJIUk9zcHUpJhoxFyU0Iy8wOiE3RTsHCzMSCyQAGjM2FAs2NQtIFg==";s:21:"HTTP_X_REQUESTED_WITH";s:14:"XMLHttpRequest";s:15:"HTTP_USER_AGENT";s:121:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36";s:12:"CONTENT_TYPE";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:12:"HTTP_REFERER";s:89:"http://localhost/freshgrade-api.loc/backend/web/index.php?r=gii%2Fdefault%2Fview&id=model";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip, deflate, br";s:20:"HTTP_ACCEPT_LANGUAGE";s:41:"en-US,en;q=0.8,ru;q=0.6,id;q=0.4,uk;q=0.2";s:11:"HTTP_COOKIE";s:1071:"__utma=111872281.829728731.1489800627.1489858884.1489953474.4; __utmc=111872281; __utmz=111872281.1489800627.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.829728731.1489800627; PHPSESSID=g09f7te9unnas3rt716f5reb24; _identity=30efa057900262bd5591fed58e4a9ebd37516f9b161a22811a3eb79cc6cffb52a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=9be8e7b4f9cfde37a7535ab9ca75ef09167341d8456cbf5051d796f85f08d164a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kZZu28gKKzJQYW8nZ7aMdHFh4CcI2bAr%22%3B%7D; advanced-frontend=5pt5ok0de226icb8jpjtu5nqk1; advanced-backend=ul3dtj7f3n69k8og08eddh48o1; _csrf-frontend=ad0768da15c98a3996664e28dd2500ffa9cefa766ef411f1ff4d8dbfe0bffab3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22O6cbJM0ZPZUG5rb-mIPh8DDt6zjpkkaL%22%3B%7D; _csrf-backend=73e6921a8349bc21dd199aa940bfbadb93fda3ef073874968f05609ba12c07a7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22sdRcXVDVurrsx6KrQqZYksjFlVCdzx8c%22%3B%7D";s:4:"PATH";s:29:"/usr/bin:/bin:/usr/sbin:/sbin";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:72:"Apache/2.4.20 (Unix) PHP/5.5.35 mod_wsgi/3.5 Python/3.5.1 OpenSSL/1.0.1p";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:3:"::1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:3:"::1";s:13:"DOCUMENT_ROOT";s:23:"/Applications/AMPPS/www";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:23:"/Applications/AMPPS/www";s:12:"SERVER_ADMIN";s:15:"admin@localhost";s:15:"SCRIPT_FILENAME";s:64:"/Applications/AMPPS/www/freshgrade-api.loc/backend/web/index.php";s:11:"REMOTE_PORT";s:5:"57300";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:72:"r=gii%2Fdefault%2Fpreview&id=model&file=8f1e0607035ac52ab8540d8c225da396";s:11:"REQUEST_URI";s:114:"/freshgrade-api.loc/backend/web/index.php?r=gii%2Fdefault%2Fpreview&id=model&file=8f1e0607035ac52ab8540d8c225da396";s:11:"SCRIPT_NAME";s:41:"/freshgrade-api.loc/backend/web/index.php";s:8:"PHP_SELF";s:41:"/freshgrade-api.loc/backend/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1491884059.164;s:12:"REQUEST_TIME";i:1491884059;}s:3:"GET";a:3:{s:1:"r";s:19:"gii/default/preview";s:2:"id";s:5:"model";s:4:"file";s:32:"8f1e0607035ac52ab8540d8c225da396";}s:4:"POST";a:3:{s:13:"_csrf-backend";s:56:"WkJIUk9zcHUpJhoxFyU0Iy8wOiE3RTsHCzMSCyQAGjM2FAs2NQtIFg==";s:9:"Generator";a:16:{s:9:"tableName";s:7:"student";s:10:"modelClass";s:7:"Student";s:2:"ns";s:10:"app\models";s:9:"baseClass";s:19:"yii\db\ActiveRecord";s:2:"db";s:2:"db";s:14:"useTablePrefix";s:1:"0";s:17:"generateRelations";s:3:"all";s:26:"generateLabelsFromComments";s:1:"0";s:13:"generateQuery";s:1:"0";s:7:"queryNs";s:10:"app\models";s:10:"queryClass";s:12:"StudentQuery";s:14:"queryBaseClass";s:18:"yii\db\ActiveQuery";s:10:"enableI18N";s:1:"0";s:15:"messageCategory";s:3:"app";s:13:"useSchemaName";s:1:"1";s:8:"template";s:7:"default";}s:7:"answers";a:1:{s:32:"8f1e0607035ac52ab8540d8c225da396";s:1:"1";}}s:6:"COOKIE";a:11:{s:6:"__utma";s:54:"111872281.829728731.1489800627.1489858884.1489953474.4";s:6:"__utmc";s:9:"111872281";s:6:"__utmz";s:70:"111872281.1489800627.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)";s:3:"_ga";s:26:"GA1.1.829728731.1489800627";s:9:"PHPSESSID";s:26:"g09f7te9unnas3rt716f5reb24";s:9:"_identity";s:130:"30efa057900262bd5591fed58e4a9ebd37516f9b161a22811a3eb79cc6cffb52a:2:{i:0;s:9:"_identity";i:1;s:28:"["100","test100key",2592000]";}";s:5:"_csrf";s:130:"9be8e7b4f9cfde37a7535ab9ca75ef09167341d8456cbf5051d796f85f08d164a:2:{i:0;s:5:"_csrf";i:1;s:32:"kZZu28gKKzJQYW8nZ7aMdHFh4CcI2bAr";}";s:17:"advanced-frontend";s:26:"5pt5ok0de226icb8jpjtu5nqk1";s:16:"advanced-backend";s:26:"ul3dtj7f3n69k8og08eddh48o1";s:14:"_csrf-frontend";s:140:"ad0768da15c98a3996664e28dd2500ffa9cefa766ef411f1ff4d8dbfe0bffab3a:2:{i:0;s:14:"_csrf-frontend";i:1;s:32:"O6cbJM0ZPZUG5rb-mIPh8DDt6zjpkkaL";}";s:13:"_csrf-backend";s:139:"73e6921a8349bc21dd199aa940bfbadb93fda3ef073874968f05609ba12c07a7a:2:{i:0;s:13:"_csrf-backend";i:1;s:32:"sdRcXVDVurrsx6KrQqZYksjFlVCdzx8c";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}s:3:"log";a:1:{s:8:"messages";a:16:{i:0;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1491884059.1898701;i:4;a:0:{}i:5;i:1620132;}i:1;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1491884059.189934;i:4;a:0:{}i:5;i:1621892;}i:2;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1491884059.195492;i:4;a:0:{}i:5;i:1995892;}i:3;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1491884059.196804;i:4;a:0:{}i:5;i:2092736;}i:4;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1491884059.1971419;i:4;a:0:{}i:5;i:2125532;}i:6;a:6:{i:0;s:38:"Route requested: 'gii/default/preview'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1491884059.199801;i:4;a:0:{}i:5;i:2357412;}i:7;a:6:{i:0;s:33:"Route to run: gii/default/preview";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1491884059.2018781;i:4;a:0:{}i:5;i:2501628;}i:8;a:6:{i:0;s:70:"Running action: yii\gii\controllers\DefaultController::actionPreview()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1491884059.2142141;i:4;a:0:{}i:5;i:3253048;}i:9;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `student`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2310159;i:4;a:0:{}i:5;i:4502312;}i:10;a:6:{i:0;s:61:"Opening DB connection: mysql:host=localhost;dbname=freshgrade";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1491884059.231123;i:4;a:0:{}i:5;i:4506888;}i:15;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'student' AND kcu.table_name = 'student'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2347901;i:4;a:0:{}i:5;i:4529652;}i:18;a:6:{i:0;s:11:"SHOW TABLES";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2361779;i:4;a:0:{}i:5;i:4537928;}i:21;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `country`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2366431;i:4;a:0:{}i:5;i:4541280;}i:24;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'country' AND kcu.table_name = 'country'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2406421;i:4;a:0:{}i:5;i:4547520;}i:27;a:6:{i:0;s:27:"SHOW CREATE TABLE `student`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2429581;i:4;a:0:{}i:5;i:4615892;}i:30;a:6:{i:0;s:122:"Rendering view file: /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2-gii/generators/model/default/model.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1491884059.2456789;i:4;a:0:{}i:5;i:4735248;}}}s:9:"profiling";a:3:{s:6:"memory";i:4817752;s:4:"time";d:0.077036857604980469;s:8:"messages";a:14:{i:11;a:6:{i:0;s:61:"Opening DB connection: mysql:host=localhost;dbname=freshgrade";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1491884059.2311721;i:4;a:0:{}i:5;i:4507540;}i:12;a:6:{i:0;s:61:"Opening DB connection: mysql:host=localhost;dbname=freshgrade";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1491884059.23194;i:4;a:0:{}i:5;i:4509020;}i:13;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `student`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.231998;i:4;a:0:{}i:5;i:4507164;}i:14;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `student`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2338679;i:4;a:0:{}i:5;i:4514752;}i:16;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'student' AND kcu.table_name = 'student'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.234905;i:4;a:0:{}i:5;i:4531728;}i:17;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'student' AND kcu.table_name = 'student'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2354441;i:4;a:0:{}i:5;i:4532688;}i:19;a:6:{i:0;s:11:"SHOW TABLES";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2362239;i:4;a:0:{}i:5;i:4538948;}i:20;a:6:{i:0;s:11:"SHOW TABLES";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.236563;i:4;a:0:{}i:5;i:4539912;}i:22;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `country`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.236681;i:4;a:0:{}i:5;i:4542348;}i:23;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `country`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2401209;i:4;a:0:{}i:5;i:4546732;}i:25;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'country' AND kcu.table_name = 'country'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.240732;i:4;a:0:{}i:5;i:4549620;}i:26;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'country' AND kcu.table_name = 'country'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2413509;i:4;a:0:{}i:5;i:4550516;}i:28;a:6:{i:0;s:27:"SHOW CREATE TABLE `student`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.243037;i:4;a:0:{}i:5;i:4616940;}i:29;a:6:{i:0;s:27:"SHOW CREATE TABLE `student`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.243319;i:4;a:0:{}i:5;i:4618328;}}}s:2:"db";a:1:{s:8:"messages";a:12:{i:13;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `student`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.231998;i:4;a:0:{}i:5;i:4507164;}i:14;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `student`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2338679;i:4;a:0:{}i:5;i:4514752;}i:16;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'student' AND kcu.table_name = 'student'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.234905;i:4;a:0:{}i:5;i:4531728;}i:17;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'student' AND kcu.table_name = 'student'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2354441;i:4;a:0:{}i:5;i:4532688;}i:19;a:6:{i:0;s:11:"SHOW TABLES";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2362239;i:4;a:0:{}i:5;i:4538948;}i:20;a:6:{i:0;s:11:"SHOW TABLES";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.236563;i:4;a:0:{}i:5;i:4539912;}i:22;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `country`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.236681;i:4;a:0:{}i:5;i:4542348;}i:23;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `country`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2401209;i:4;a:0:{}i:5;i:4546732;}i:25;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'country' AND kcu.table_name = 'country'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.240732;i:4;a:0:{}i:5;i:4549620;}i:26;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'country' AND kcu.table_name = 'country'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.2413509;i:4;a:0:{}i:5;i:4550516;}i:28;a:6:{i:0;s:27:"SHOW CREATE TABLE `student`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.243037;i:4;a:0:{}i:5;i:4616940;}i:29;a:6:{i:0;s:27:"SHOW CREATE TABLE `student`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491884059.243319;i:4;a:0:{}i:5;i:4618328;}}}s:6:"assets";a:0:{}s:4:"mail";a:0:{}s:8:"timeline";a:3:{s:5:"start";d:1491884059.1713221;s:3:"end";d:1491884059.2484059;s:6:"memory";i:4817752;}s:4:"user";N;s:6:"router";a:1:{s:8:"messages";a:1:{i:5;a:6:{i:0;s:56:"Pretty URL not enabled. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1491884059.199765;i:4;a:0:{}i:5;i:2357800;}}}s:7:"summary";a:9:{s:3:"tag";s:13:"58ec581b2fd7b";s:3:"url";s:130:"http://localhost/freshgrade-api.loc/backend/web/index.php?r=gii%2Fdefault%2Fpreview&id=model&file=8f1e0607035ac52ab8540d8c225da396";s:4:"ajax";i:1;s:6:"method";s:4:"POST";s:2:"ip";s:3:"::1";s:4:"time";d:1491884059.164;s:10:"statusCode";i:200;s:8:"sqlCount";i:6;s:9:"mailCount";i:0;}}

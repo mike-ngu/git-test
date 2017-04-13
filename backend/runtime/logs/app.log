@@ -1,0 +1,257 @@
+2017-04-11 00:39:08 [::1][-][ul3dtj7f3n69k8og08eddh48o1][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Connection.php:630
+Stack trace:
+#0 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Connection.php(630): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Connection.php(563): yii\db\Connection->createPdoInstance()
+#2 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Connection.php(896): yii\db\Connection->open()
+#3 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Connection.php(883): yii\db\Connection->getMasterPdo()
+#4 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Schema.php(483): yii\db\Connection->getSlavePdo()
+#5 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Connection.php(792): yii\db\Schema->quoteValue('<span class="st...')
+#6 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Command.php(175): yii\db\Connection->quoteValue('<span class="st...')
+#7 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Command.php(871): yii\db\Command->getRawSql()
+#8 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#9 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Query.php(253): yii\db\Command->queryOne()
+#10 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#11 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#12 /Applications/AMPPS/www/freshgrade-api.loc/common/models/User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#13 /Applications/AMPPS/www/freshgrade-api.loc/common/models/LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#14 /Applications/AMPPS/www/freshgrade-api.loc/common/models/LoginForm.php(44): common\models\LoginForm->getUser()
+#15 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...', Object(yii\validators\InlineValidator))
+#16 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/validators/InlineValidator.php(72): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...', Object(yii\validators\InlineValidator))
+#17 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/validators/Validator.php(267): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#18 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Model.php(358): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#19 /Applications/AMPPS/www/freshgrade-api.loc/common/models/LoginForm.php(58): yii\base\Model->validate()
+#20 /Applications/AMPPS/www/freshgrade-api.loc/backend/controllers/SiteController.php(78): common\models\LoginForm->login()
+#21 [internal function]: backend\controllers\SiteController->actionLogin()
+#22 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#23 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#24 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#25 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#26 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /Applications/AMPPS/www/freshgrade-api.loc/backend/web/index.php(17): yii\base\Application->run()
+#28 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Connection.php:568
+Stack trace:
+#0 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Connection.php(896): yii\db\Connection->open()
+#1 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Connection.php(883): yii\db\Connection->getMasterPdo()
+#2 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Schema.php(483): yii\db\Connection->getSlavePdo()
+#3 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Connection.php(792): yii\db\Schema->quoteValue('<span class="st...')
+#4 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Command.php(175): yii\db\Connection->quoteValue('<span class="st...')
+#5 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Command.php(871): yii\db\Command->getRawSql()
+#6 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Query.php(253): yii\db\Command->queryOne()
+#8 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#9 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#10 /Applications/AMPPS/www/freshgrade-api.loc/common/models/User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#11 /Applications/AMPPS/www/freshgrade-api.loc/common/models/LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#12 /Applications/AMPPS/www/freshgrade-api.loc/common/models/LoginForm.php(44): common\models\LoginForm->getUser()
+#13 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...', Object(yii\validators\InlineValidator))
+#14 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/validators/InlineValidator.php(72): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...', Object(yii\validators\InlineValidator))
+#15 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/validators/Validator.php(267): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#16 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Model.php(358): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#17 /Applications/AMPPS/www/freshgrade-api.loc/common/models/LoginForm.php(58): yii\base\Model->validate()
+#18 /Applications/AMPPS/www/freshgrade-api.loc/backend/controllers/SiteController.php(78): common\models\LoginForm->login()
+#19 [internal function]: backend\controllers\SiteController->actionLogin()
+#20 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#21 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#22 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#23 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#24 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 /Applications/AMPPS/www/freshgrade-api.loc/backend/web/index.php(17): yii\base\Application->run()
+#26 {main}
+Additional Information:
+
+2017-04-11 00:39:08 [::1][-][ul3dtj7f3n69k8og08eddh48o1][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'THB4WllSdjE/FCo5AQQyZzkCCikhZD1DHQEiAzIhHHcgJjs.IypOUg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'admin'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '__utma' => '111872281.829728731.1489800627.1489858884.1489953474.4'
+    '__utmc' => '111872281'
+    '__utmz' => '111872281.1489800627.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.829728731.1489800627'
+    'PHPSESSID' => 'g09f7te9unnas3rt716f5reb24'
+    '_identity' => '30efa057900262bd5591fed58e4a9ebd37516f9b161a22811a3eb79cc6cffb52a:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+    '_csrf' => '9be8e7b4f9cfde37a7535ab9ca75ef09167341d8456cbf5051d796f85f08d164a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"kZZu28gKKzJQYW8nZ7aMdHFh4CcI2bAr\";}'
+    'advanced-frontend' => '5pt5ok0de226icb8jpjtu5nqk1'
+    'advanced-backend' => 'ul3dtj7f3n69k8og08eddh48o1'
+    '_csrf-frontend' => 'ad0768da15c98a3996664e28dd2500ffa9cefa766ef411f1ff4d8dbfe0bffab3a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"O6cbJM0ZPZUG5rb-mIPh8DDt6zjpkkaL\";}'
+    '_csrf-backend' => '73e6921a8349bc21dd199aa940bfbadb93fda3ef073874968f05609ba12c07a7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"sdRcXVDVurrsx6KrQqZYksjFlVCdzx8c\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/freshgrade-api.loc/backend/web/'
+]
+
+$_SERVER = [
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '206'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/freshgrade-api.loc/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8,ru;q=0.6,id;q=0.4,uk;q=0.2'
+    'HTTP_COOKIE' => '__utma=111872281.829728731.1489800627.1489858884.1489953474.4; __utmc=111872281; __utmz=111872281.1489800627.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.829728731.1489800627; PHPSESSID=g09f7te9unnas3rt716f5reb24; _identity=30efa057900262bd5591fed58e4a9ebd37516f9b161a22811a3eb79cc6cffb52a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D; _csrf=9be8e7b4f9cfde37a7535ab9ca75ef09167341d8456cbf5051d796f85f08d164a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22kZZu28gKKzJQYW8nZ7aMdHFh4CcI2bAr%22%3B%7D; advanced-frontend=5pt5ok0de226icb8jpjtu5nqk1; advanced-backend=ul3dtj7f3n69k8og08eddh48o1; _csrf-frontend=ad0768da15c98a3996664e28dd2500ffa9cefa766ef411f1ff4d8dbfe0bffab3a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22O6cbJM0ZPZUG5rb-mIPh8DDt6zjpkkaL%22%3B%7D; _csrf-backend=73e6921a8349bc21dd199aa940bfbadb93fda3ef073874968f05609ba12c07a7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22sdRcXVDVurrsx6KrQqZYksjFlVCdzx8c%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Unix) PHP/5.5.35 mod_wsgi/3.5 Python/3.5.1 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/freshgrade-api.loc/backend/web/index.php'
+    'REMOTE_PORT' => '55032'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/freshgrade-api.loc/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/freshgrade-api.loc/backend/web/index.php'
+    'PHP_SELF' => '/freshgrade-api.loc/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491871148.814
+    'REQUEST_TIME' => 1491871148
+]
+2017-04-12 06:31:14 [::1][-][o7b7coudb8ls2iknp2ik9u63g3][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'freshgrade.user' doesn't exist' in /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Command.php:902
+Stack trace:
+#0 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Command.php(902): PDOStatement->execute()
+#1 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Query.php(253): yii\db\Command->queryOne()
+#3 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#4 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#5 /Applications/AMPPS/www/freshgrade-api.loc/common/models/User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#6 /Applications/AMPPS/www/freshgrade-api.loc/common/models/LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#7 /Applications/AMPPS/www/freshgrade-api.loc/common/models/LoginForm.php(44): common\models\LoginForm->getUser()
+#8 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...', Object(yii\validators\InlineValidator))
+#9 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/validators/InlineValidator.php(72): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...', Object(yii\validators\InlineValidator))
+#10 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/validators/Validator.php(267): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#11 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Model.php(358): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#12 /Applications/AMPPS/www/freshgrade-api.loc/common/models/LoginForm.php(58): yii\base\Model->validate()
+#13 /Applications/AMPPS/www/freshgrade-api.loc/backend/controllers/SiteController.php(78): common\models\LoginForm->login()
+#14 [internal function]: backend\controllers\SiteController->actionLogin()
+#15 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#16 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#17 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#18 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#19 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Applications/AMPPS/www/freshgrade-api.loc/backend/web/index.php(17): yii\base\Application->run()
+#21 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'freshgrade.user' doesn't exist
+The SQL being executed was: SELECT * FROM `user` WHERE (`username`='admin') AND (`status`=10)' in /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Schema.php:636
+Stack trace:
+#0 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Command.php(917): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Command.php(376): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/Query.php(253): yii\db\Command->queryOne()
+#3 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/ActiveQuery.php(295): yii\db\Query->one('<span class="ke...')
+#4 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/db/BaseActiveRecord.php(107): yii\db\ActiveQuery->one()
+#5 /Applications/AMPPS/www/freshgrade-api.loc/common/models/User.php(83): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#6 /Applications/AMPPS/www/freshgrade-api.loc/common/models/LoginForm.php(73): common\models\User::findByUsername('<span class="st...')
+#7 /Applications/AMPPS/www/freshgrade-api.loc/common/models/LoginForm.php(44): common\models\LoginForm->getUser()
+#8 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...', Object(yii\validators\InlineValidator))
+#9 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/validators/InlineValidator.php(72): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...', Object(yii\validators\InlineValidator))
+#10 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/validators/Validator.php(267): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#11 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Model.php(358): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#12 /Applications/AMPPS/www/freshgrade-api.loc/common/models/LoginForm.php(58): yii\base\Model->validate()
+#13 /Applications/AMPPS/www/freshgrade-api.loc/backend/controllers/SiteController.php(78): common\models\LoginForm->login()
+#14 [internal function]: backend\controllers\SiteController->actionLogin()
+#15 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#16 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Controller.php(156): yii\base\InlineAction->runWithParams('[<span class="s...')
+#17 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Module.php(523): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#18 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/web/Application.php(102): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#19 /Applications/AMPPS/www/freshgrade-api.loc/vendor/yiisoft/yii2/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Applications/AMPPS/www/freshgrade-api.loc/backend/web/index.php(17): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'freshgrade.user' doesn't exist
+)
+
+2017-04-12 06:31:14 [::1][-][o7b7coudb8ls2iknp2ik9u63g3][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'MjlnWl9Od1VYSxEKbTQWCm1DUmobOwV4eQgJLjd6LS1bfRZjPScbAw=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'admin'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    '__utma' => '111872281.1627176072.1489800211.1489800211.1489800211.1'
+    '__utmz' => '111872281.1489800211.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_ga' => 'GA1.1.1627176072.1489800211'
+    '_csrf-backend' => 'ab52eb7db624eed194dfd7090da24904a8d0ce38cafbccff44eef49d41407c05a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"jrvP2za__z50Dur-K1nth4ZxiDq9bilV\";}'
+    'advanced-backend' => 'o7b7coudb8ls2iknp2ik9u63g3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/freshgrade-api.loc/backend/web/'
+]
+
+$_SERVER = [
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_COOKIE' => '__utma=111872281.1627176072.1489800211.1489800211.1489800211.1; __utmz=111872281.1489800211.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga=GA1.1.1627176072.1489800211; _csrf-backend=ab52eb7db624eed194dfd7090da24904a8d0ce38cafbccff44eef49d41407c05a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22jrvP2za__z50Dur-K1nth4ZxiDq9bilV%22%3B%7D; advanced-backend=o7b7coudb8ls2iknp2ik9u63g3'
+    'CONTENT_LENGTH' => '204'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11) AppleWebKit/601.1.56 (KHTML, like Gecko) Version/9.0 Safari/601.1.56'
+    'HTTP_REFERER' => 'http://localhost/freshgrade-api.loc/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-us'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.20 (Unix) PHP/5.5.35 mod_wsgi/3.5 Python/3.5.1 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/freshgrade-api.loc/backend/web/index.php'
+    'REMOTE_PORT' => '56355'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/freshgrade-api.loc/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/freshgrade-api.loc/backend/web/index.php'
+    'PHP_SELF' => '/freshgrade-api.loc/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1491978674.617
+    'REQUEST_TIME' => 1491978674
+]
